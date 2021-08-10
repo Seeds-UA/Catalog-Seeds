@@ -612,6 +612,7 @@
 .modal-tel {
   text-decoration: none;
   color: #000000;
+  border-bottom: 1px solid #51d6ff;
 }
 
 .icon-tel {
