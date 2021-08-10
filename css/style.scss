@@ -385,7 +385,7 @@
   position: fixed; 
   left: 0;
   top: 0;
-  z-index: 2; 
+  z-index: 999; 
   padding-top: 100px; 
   overflow: scroll;
   background-color: rgba(0,0,0,0.4); 
@@ -441,7 +441,6 @@
   padding: 2px 16px;
   color: #000000;
   background-color: #ffffffec;
-  z-index: 100;
 }
 
 // Table
