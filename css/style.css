@@ -637,7 +637,7 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .main-slide__title {
     padding: 3px 0 3px 30px;
     left: 1rem;
