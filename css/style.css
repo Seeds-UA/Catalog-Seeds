@@ -420,6 +420,13 @@
   z-index: 4;
 }
 
+.image {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .btn {
   width: 100px;
   margin: 0 auto;
@@ -624,13 +631,6 @@
   color: #000000;
 }
 
-.image {
-  width: 100%;
-  height: 100vh;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 @media screen and (max-width: 1400px) {
   .nav-bar__list.open {
     top: 30px;
@@ -708,6 +708,12 @@
 }
 
 @media screen and (max-width: 375px) {
+  .image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
