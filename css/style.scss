@@ -180,21 +180,6 @@
   transition: ease 0.5s;
 }
 
-.close {
-  color: #000000;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.close:hover,
-.close:focus {
-  color: #ff0000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 // slide
 .main-slide { 
   position: relative;
@@ -392,12 +377,16 @@
   left: 0;
   top: 0;
   z-index: 999; 
-  padding-top: 100px; 
+  padding-top: 50px; 
+  padding-bottom: 50px;
   overflow: scroll;
   background-color: rgba(0,0,0,0.4); 
 }
 
 .modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   background-color: #ffffff;
   margin: auto;
@@ -420,15 +409,19 @@
 }
 
 .closed {
-  color: #ffffff;
-  float: right;
+  position: absolute;
+  top: -30px;
+  right: 10px;
   font-size: 28px;
-  font-weight: bold;
+}
+
+.fa-times {
+  color: #000000;
   transition: all ease 1s;
 }
 
-.closed:hover,
-.closed:focus {
+.fa-times:hover,
+.fa-times:focus {
   color: #ff0000;
   text-decoration: none;
   cursor: pointer;
