@@ -381,6 +381,7 @@
   padding-bottom: 50px;
   overflow: scroll;
   background-color: rgba(0,0,0,0.4); 
+  cursor: pointer;
 }
 
 .modal-content {
@@ -395,7 +396,8 @@
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
+  cursor: auto;
 }
 
 @-webkit-keyframes animatetop {
