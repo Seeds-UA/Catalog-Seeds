@@ -128,6 +128,12 @@
   font-size: 28px;
 }
 
+.actives {
+  color: #e74c3c;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
 .nav-bar__title {
   padding-top: 3%;
   text-align: center;
