@@ -108,8 +108,9 @@
 }
 
 .nav-bar-main__link {
-  font-size: 18px;
+  font-size: 16px;
   color: #f4f5f9;
+  text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
 }
