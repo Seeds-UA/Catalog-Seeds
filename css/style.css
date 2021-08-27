@@ -108,7 +108,7 @@
 }
 
 .nav-bar-main__link {
-  font-size: 16px;
+  font-size: 18px;
   color: #f4f5f9;
   font-weight: bold;
   text-decoration: none;
@@ -118,6 +118,13 @@
   color: #e74c3c;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
+}
+
+.closes {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 28px;
 }
 
 .nav-bar__title {
@@ -131,7 +138,7 @@
   height: 30px;
   margin: auto;
   padding-bottom: 10px;
-  margin-top: 3%;
+  margin-top: 10%;
   margin-bottom: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,7 +185,7 @@
 
 .nav-bar__list.open {
   width: 100%;
-  margin: 60px auto;
+  margin: 20% auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
