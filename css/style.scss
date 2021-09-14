@@ -19,7 +19,18 @@
   padding: 5px;
   text-align: center;
   color: #00B046;
-  border: 1px solid greenyellow;
+  border: none;
+  box-shadow: 2px 2px 10px rgb(119, 118, 118);
+}
+
+.nav-bar-main__title:hover {
+  padding: 5px;
+  transition: all 0.5s ease-out;
+  box-shadow: 2px 2px 20px rgb(119, 118, 118);
+}
+
+.nav-bar-main__title:active {
+  box-shadow: 0px 0px 5px rgb(119, 118, 118);
 }
 
 .burger-main { 
@@ -38,12 +49,6 @@
   transition: all 0.5s ease-out;
   z-index: 3;
   cursor: pointer;
-}
-
-.nav-bar-main__title:hover {
-  padding: 5px;
-  border: 1px solid #00B046;
-  transition: all 0.5s ease-out;
 }
 
 .burger-main__line { 
@@ -131,13 +136,20 @@
   align-self: center;
   transition: all 0.5s ease-out;
   z-index: 3;
-  border: 1px solid greenyellow;
+  border: none;
   cursor: pointer;
+  box-shadow: 2px 2px 10px rgb(119, 118, 118);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .burger:hover{
-  border: 3px solid #00B046;
   transition: all 0.5s ease-out;
+  box-shadow: 2px 2px 20px rgb(119, 118, 118);
+}
+
+.burger:active{
+  transition: all 0.5s ease-out;
+  box-shadow: 0px 0px 5px rgb(119, 118, 118);
 }
 
 .burger__line { 
@@ -298,7 +310,7 @@
   object-fit: cover;
 }
 
-.center{
+.center {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -350,7 +362,7 @@
 
 .btn__link:active {
   transform: translateY(3px);
-  box-shadow:1px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 // Modal window
@@ -362,7 +374,7 @@
 .main-slide__btn {
   padding: 5px 15px;
   margin: 30px 0 30px 0;
-  box-shadow: 6px 6px 6px rgb(119, 118, 118);
+  box-shadow: 2px 2px 10px rgb(119, 118, 118);
   background-color: transparent;
   border: none;
   font-size: 18px;
@@ -375,10 +387,11 @@
 .main-slide__btn:hover {
   color: red;
   transition: all ease 1s;
+  box-shadow: 2px 2px 20px rgb(119, 118, 118);
 }
 
 .main-slide__btn:active {
-  box-shadow: 3px 3px 3px rgb(119, 118, 118);
+  box-shadow: 0px 0px 5px rgb(119, 118, 118);
   cursor: pointer;
 }
 
