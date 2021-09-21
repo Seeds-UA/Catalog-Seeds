@@ -114,7 +114,7 @@
 }
 
 // Second nav bar
-.nav-bar { }
+// .nav-bar { }
 
 .nav-bar__title{
   padding-top: 3%;
@@ -590,6 +590,14 @@
 @media screen and (max-width: 750px){
   .image {
     height: 100%;
+  }
+
+  .nav-bar__list.open {
+    top: 40px;
+  }
+
+  .nav-bar-main__list.opens {
+    top: 60px;
   }
 }
 

@@ -748,6 +748,12 @@
   .image {
     height: 100%;
   }
+  .nav-bar__list.open {
+    top: 40px;
+  }
+  .nav-bar-main__list.opens {
+    top: 60px;
+  }
 }
 
 @media screen and (max-width: 375px) {
